@@ -1,0 +1,19 @@
+[user]
+	email = bosakmaw@gmail.com
+	name = Borislav Kosharov
+	signingkey = B529381524A6F3A4C5D0E7D477FE9BC2E238341C
+[push]
+	default = matching
+[interactive]
+	singlekey = true
+[pretty]
+	custom = [%Cgreen%h%Creset] '%s' by %Cblue%cn%Creset (%Cred%cr%Creset)
+[format]
+	pretty = custom
+[core]
+	editor = nano
+	autocrlf = input
+[commit]
+	gpgsign = true
+[gpg]
+	program = gpg
