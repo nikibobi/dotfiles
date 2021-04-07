@@ -28,3 +28,11 @@ PS1='\[\e[31m\][\[\e[m\]\[\e[34m\]\u\[\e[m\]\[\e[31m\]@\[\e[m\]\[\e[33m\]koshi\[
 
 # Dotfiles util alias
 alias dot='/usr/bin/git --git-dir=$HOME/dot/ --work-tree=$HOME'
+
+# pass store folder
+export PASSWORD_STORE_DIR='/mnt/c/Users/bosak/password-store'
+
+# devkitPro
+export DEVKITPRO=/opt/devkitpro
+export DEVKITARM=/opt/devkitpro/devkitARM
+export DEVKITPPC=/opt/devkitpro/devkitPPC
