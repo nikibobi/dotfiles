@@ -5,11 +5,6 @@
 # If not running interactively, don't do anything
 [[ $- != *i* ]] && return
 
-# systemd bottle
-if [[ ! -v INSIDE_GENIE ]]; then
-    exec /usr/bin/genie -s
-fi
-
 # GPG agent
 GPG_TTY=$(tty)
 export GPG_TTY
