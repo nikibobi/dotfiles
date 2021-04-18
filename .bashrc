@@ -23,3 +23,6 @@ PS1='\[\e[31m\][\[\e[m\]\[\e[34m\]\u\[\e[m\]\[\e[31m\]@\[\e[m\]\[\e[33m\]\h\[\e[
 
 # Dotfiles util alias
 alias dot='/usr/bin/git --git-dir=$HOME/dot/ --work-tree=$HOME'
+
+# default editor
+export EDITOR=nano
