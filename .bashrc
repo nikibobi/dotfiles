@@ -26,6 +26,8 @@ alias dot='/usr/bin/git --git-dir=$HOME/dot/ --work-tree=$HOME'
 
 # default editor
 export EDITOR=nano
+# diff tool
+export DIFFPROG='diff --color -u'
 
 # pass store folder
 export PASSWORD_STORE_DIR='/mnt/c/Users/bosak/password-store'
@@ -34,4 +36,3 @@ export PASSWORD_STORE_DIR='/mnt/c/Users/bosak/password-store'
 export DEVKITPRO=/opt/devkitpro
 export DEVKITARM=/opt/devkitpro/devkitARM
 export DEVKITPPC=/opt/devkitpro/devkitPPC
-
