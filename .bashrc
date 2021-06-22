@@ -26,3 +26,5 @@ alias dot='/usr/bin/git --git-dir=$HOME/dot/ --work-tree=$HOME'
 
 # default editor
 export EDITOR=nano
+# diff tool
+export DIFFPROG='diff --color -u'
